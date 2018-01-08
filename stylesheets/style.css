@@ -1,0 +1,88 @@
+/* .red{
+  color:red;
+}
+
+.circle-red{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:red;
+} */
+
+button{
+  background-color: #000099;
+  color: white;
+  width: 70px;
+  height: 50px;
+  border: 1px solid grey;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+button:hover{
+  border: 2px solid white;
+  color: #FFDD00;
+}
+
+.wrapper{
+  /* width: 45%; */
+  max-width: 600px;
+  margin: 30px auto;
+}
+.line{
+  height: 5px;
+  margin:0 auto;
+  background: blue;
+}
+.lamp-top-wrapper, .lamp-bottom-wrapper{
+  margin:0 auto;
+}
+
+.lamp-bottom-wrapper{
+  padding-left:30px;
+}
+.lamp-wrapper{
+  width: 25px;
+  display:inline-block;
+  margin-bottom: -5px;
+  margin-left: 35px;
+}
+
+.lamp{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+}
+.lamp-bottom-wrapper .lamp-wrapper{
+  transform: rotate(180deg);
+}
+
+.leg{
+  width: 10px;
+  height: 20px;
+  background: black;
+  margin: 0 auto;
+}
+
+#one-color{
+  font-size: 14px;
+  margin-left:15px;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.in-active{
+  /* display:none; */
+  opacity: 0.1;
+}
